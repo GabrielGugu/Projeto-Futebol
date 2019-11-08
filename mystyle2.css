@@ -1,0 +1,45 @@
+.background{
+
+}
+
+.divTabela{
+
+}
+
+h1, h2, h3{
+	color: green;
+}
+
+table.gridTabela{
+    width: 100%;
+    color: #333333;
+    border-color: #777777;
+   	border-collapse: collapse;
+    text-align: center;
+}
+
+table.gridTabela th{
+	border-width: 1px;
+    border-color: #777777;
+    border-style: solid;
+    padding: 5px;
+    background-color: #66CDAA;
+}
+
+table.gridTabela td{
+    border-width: 1px;
+    border-color: #777777;
+    border-style: solid;
+    padding: 5px;
+    background-color: #20B2AA;
+}
+
+option{
+	background-color: #20B2AA;
+	width: 200px;
+}
+
+select{
+	width: 150px;
+	height: 300px;
+}
