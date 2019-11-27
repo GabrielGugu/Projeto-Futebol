@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="mystyle2.css">
 		<script src="myscript.js"></script>
 	</head>
-	<body>
+	<body class="body">
 		<?php
 			$caracteristicas = $_POST['teste2'];
 			$arquivo = $_POST['arquivo'];
@@ -26,9 +26,9 @@
 			echo '<p> CARACTERISTICAS SELECIONADAS: </p>';
 			for ($i = 0; $i < count($arrayCarac); $i++) {
 				if(($arrayCarac[$i] != "") && ($i != count($arrayCarac) - 1)){
-					echo $arrayCarac[$i] . ", ";
+					echo "<a>".$arrayCarac[$i] . ", </a>";
 				} else {
-					echo $arrayCarac[$i];
+					echo "<a>".$arrayCarac[$i]."</a>";
 				}
 			}
 			echo '<p> Nome do arquivo: '.$novoNome.'</p>';

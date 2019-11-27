@@ -1,42 +1,97 @@
-.background{
-
+.body_home{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(imgs/bg.jpg) no-repeat;
+    background-size: cover;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(imgs/bg.jpg) no-repeat;
+    background-size: contain;
 }
 
-.divTabela{
-
+.btn{
+    width: 100%;
+    background: black;
+    border: 2px solid #777777;
+    color: green;
+    padding: 5px;
+    opacity: 0.9;
 }
 
-h1, h2, h3{
-	color: green;
+.btnl{
+    width: 30%;
+    background: black;
+    border: 2px solid #777777;
+    color: white;
+    padding: 5px;
+    opacity: 0.9;
+}
+
+.inp{
+    width: 95%;
+    background: black;
+    border: 2px solid #777777;
+    color: green;
+    padding: 5px;
+    opacity: 0.9;
+}
+
+.div_home{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: green;
+}
+
+h1, h2, h3, p, a{
+    color: white;
+    text-align: center;
+}
+.h3home{
+    color: white;
+    text-align: center;
+}
+.teste{
+    color: lightslategrey;
+    text-align: center;
 }
 
 table.gridTabela{
     width: 100%;
-    color: #333333;
-    border-color: #777777;
+    color: white;
+    border-color: white;
    	border-collapse: collapse;
     text-align: center;
 }
 
 table.gridTabela th{
 	border-width: 1px;
-    border-color: #777777;
+    border-color: white;
     border-style: solid;
     padding: 5px;
-    background-color: #66CDAA;
+    background-color: gray;
+    color: white;
 }
 
 table.gridTabela td{
     border-width: 1px;
-    border-color: #777777;
+    border-color: white;
     border-style: solid;
     padding: 5px;
-    background-color: #20B2AA;
+    background-color: black;
 }
 
 option{
-	background-color: #20B2AA;
-	width: 200px;
+	background-color: black;
+    width: 200px;
+    color: white;
+    opacity: 0.8;
 }
 
 select{

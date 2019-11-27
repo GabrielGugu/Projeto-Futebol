@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="mystyle2.css">
 		<script src="myscript.js"></script>
 	</head>
-	<body>
+	<body class="body">
 		
 		<?php
 			$arqTemp = $_FILES['arquivo']['tmp_name'];
@@ -59,11 +59,11 @@
 				        echo '<input type="hidden" id="teste2" name="teste2">';
 						echo '<input type="hidden" id="arquivo" name="arquivo" value="Arquivos CSV/' . $nome . '">';
 						echo '<input type="hidden" id="nome" name="nome" value="'. $nome.'">';
-				        echo '<input id="btnEnviar" onClick="pegarSelect()" type="submit" name="escolher" value="Escolher caracteristicas">';
+				        echo '<input class="btnl" id="btnEnviar" onClick="pegarSelect()" type="submit" name="escolher" value="ESCOLHER CARACTERISTICAS">';
 				        echo '</form>';
 				        echo '</div>';
 				        echo '<br>';
-				        echo '<h2>Tabela de dados</h2>';
+				        echo '<h2 class="teste">Tabela de dados</h2>';
 			        }
 
 			        $row++;
